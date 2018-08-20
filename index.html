@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ollie Bike Sharing</title>
+  <title>Collector Lab Testnet</title>
   <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href=".css">
 </head>
   <body>
    
     
     <div class="container">
   <div class="nav">
-      <h2>Ollie</h2>
+      <h2>Collector Lab</h2>
   <ul>
     <li>sign up</li>
     <li>search bikes</li>
@@ -19,7 +19,12 @@
   </ul>
       </div>
       
-      
+      <ol ondragstart="dragStartHandler(event)">
+ <li draggable="true" data-value="fruit-apple">Apples</li>
+ <li draggable="true" data-value="fruit-orange">Oranges</li>
+ <li draggable="true" data-value="fruit-pear">Pears</li>
+</ol>
+
 <div class="main">
 <h1>Ollie Bike Sharing</h1>
   <h3>Share Your Pedals with the World.</h3>
