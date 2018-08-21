@@ -1,55 +1,91 @@
-html, body {
-  font-family: sans-serif;
-  margin: 0;
-  width: 100%;
-  height: 100%;
+body {
+font-family: 'Raleway', sans-serif;
+
 }
 
 h1 {
-  font-size: 48px;
-}
+  width: 100%;
+  font-weight: 300;
+  text-align: center;
+font-size: 40px;
+  color: #D6B47E;
 
-p {
-  max-width: 65%;
-  min-width: 500px;
 }
 
 h2 {
+  font-size: 1.75rem;
+  color: white;
+  display: inline-block;
   text-align: center;
-  font-size: 2.6rem;
+  background-color: #D6B47E;
+  padding: 3px 10px;
+  margin: 5px;
+  
 }
 
-div {
-  padding-right: 30px;
-  height: 100%;
-  width: 100%;
+.menu {
+  border: 2px solid;
+  text-align: center;
+  width: 200px;
 }
 
-video {
-  background-color: #000000;
-  border: 2px solid black;
+h3 {
+  display: inline-block;
+  font-weight: 800;
+  color: #D6B47E;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px 25px;
+  
 }
 
 .container {
+  min-width: 775px;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.main {
-  padding-left: 30px;
-  min-width: 75%;
+.hero {
+background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-2/cafe.jpg");
+  background-size: cover;
+  min-width: 964px;
+  min-height: 422px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.nav {
-  background-color: #FFEE00;
-  max-width: 25%;
-  min-width: 140px;
-  flex: 1;
+.supporting-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 45px 0 0 0;
 }
 
-.nav h1 {
-  padding-left: 20px;
+.supporting-container div {
+  background-size: cover;
+  min-width: 450px;
+  min-height: 345px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
 }
 
+.upcoming {
+background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-2/events.jpg")
+}
 
+.roast {
+background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-2/roast.jpg")
+}
 
-
+#footer {
+  text-align: center;
+  color: #D6B47E;
+  font-weight: 300;
+  width: 100%;
+  
+}
