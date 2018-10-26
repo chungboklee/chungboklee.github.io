@@ -21,7 +21,24 @@ h2 {
   background-color: #D6B47E;
   padding: 5px 20px;
   margin: 5px;
-  
+  line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
 }
 
 .menu {
@@ -36,7 +53,8 @@ h3 {
   color: #D6B47E;
   background-color: #ffffff;
   text-align: center;
-  padding: 10px 25px;
+  padding: 10px 10px;
+  line-height: normal;
   
 }
 
@@ -84,9 +102,11 @@ background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make
 }
 
 #footer {
+  font-size:12px;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   color: #D6B47E;
-  font-weight: 300;
+  font-weight: 500;
   width: 100%;
   
 }
