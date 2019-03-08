@@ -16,11 +16,11 @@ hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padd
 input,select{vertical-align:middle}
 
 #desktop {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Lato, sans-serif;
     position: fixed;
     height: 100%;
     width: 100%;
-    background: #CCC;
+    background: #fefefe;
 	overflow: hidden;
     top: 0;
     bottom: 0;
@@ -28,11 +28,16 @@ input,select{vertical-align:middle}
     right: 0;
 }
 .window {
+    font-family: Nanum Gothic, sans-serif;
     position: absolute;
-    border: 2px solid #000;
-    background: #EEE;
-	border-radius: 5px;
+    border: 1px solid #dddfe2;
+    background: #fff;
+	border-radius: 10px;
 	z-index: 1000;
+    -webkit-box-shadow: 0px 6px 21px 2px rgba(130,130,130,0.37);
+-moz-box-shadow: 0px 6px 21px 2px rgba(130,130,130,0.37);
+box-shadow: 0px 6px 21px 2px rgba(130,130,130,0.37);
+
 }
 .window.closed {
 	display: none;
@@ -51,22 +56,25 @@ input,select{vertical-align:middle}
 	display: none;
 }
 .windowHeader {
-    background-color: #b7b7e0;
+    background-color: #f5f6f7;
     text-align: right;
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #dddfe2;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     padding: 2px;
     cursor: move;
     height: 28px;
 }
+
 .activeWindow .windowHeader {
-    background-color: #8888d6;
+    background-color: #dddfe2;
 }
 .windowHeader > span {
     display: inline-block;
     cursor: pointer;
-    border: 2px solid #000;
+    border: 1px solid #000;
     margin-left: 4px;
-    font-size: 19px;
+    font-size: 20px;
     padding: 2px 10px;
     font-family: "Arial Black", Gadget, sans-serif;
     border-radius: 5px;
@@ -112,30 +120,30 @@ input,select{vertical-align:middle}
     padding: 10px;
     min-width: 200px;
     min-height: 140px;
-    border: 2px solid #000;
     margin: 2px;
-	border-radius: 0 0 5px 5px;
 }
 .windowHeader > strong {
     float: left;
     margin: 0px 3px 0 10px;
-    line-height: 29px;
-    font-size: 17px;
+    line-height: 30px;
+    font-family: "Lato",sans-serif;
+    font-size: 12px;
 }
 .taskbarPanel {
     display: inline-block;
-    border: 2px solid #000;
     border-radius: 5px;
     line-height: 24px;
     margin: 2px 0 0 10px;
-    font-size: 17px;
+    font-family: "Lato",sans-serif;
+    font-size: 12px;
     padding: 0 10px;
-    background: #CCC;
-    font-weight: bold;
 	cursor: pointer;
 }
 .taskbarPanel.activeTab {
-	background: #FFF;
+	background: #dddfe2;
+    -webkit-box-shadow: 0px 9px 12px -7px rgba(130,130,130,0.37);
+-moz-box-shadow: 0px 9px 12px -7px rgba(130,130,130,0.37);
+box-shadow: 0px 9px 12px -7px rgba(130,130,130,0.37);
 }
 .taskbarPanel.minimizedTab {
 	background: #AAA;	
@@ -148,12 +156,15 @@ input,select{vertical-align:middle}
 }
 #taskbar {
 	position: absolute;
-	height: 32px;
-	border-top: 2px solid #000;
+    text-align: left;
+	height: 36px;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: #EEE;
+	background: #fefefe;
+    -webkit-box-shadow: 0px -10px 18px -2px rgba(130,130,130,0.23);
+-moz-box-shadow: 0px -10px 18px -2px rgba(130,130,130,0.23);
+box-shadow: 0px -10px 18px -2px rgba(130,130,130,0.23);
 }
 #icons {
 	position: absolute;
@@ -170,14 +181,14 @@ input,select{vertical-align:middle}
 	background: #000;
 	color: #FFF;
 }
-#templateLink {
+#copyright {
     position: absolute;
     display: inline-block;
     bottom: 10px;
     right: 20px;
-    font-weight: bold;
-    font-size: 15px;
-    color: #30478c;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    color: #bebebe;
 }
 
 /*Demo styles BEGIN*/
