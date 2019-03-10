@@ -11,7 +11,7 @@
 body {
   background-color: #f7f7f7;
   font-family: Calluna, Arial, sans-serif;
-  min-height: auto; <===change later to 'auto'====>
+  min-height: auto; <!--change later to 'auto'-->
   width: 100%;
   margin: 0;
   padding: 0;
