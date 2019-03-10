@@ -78,7 +78,7 @@ div.item {
     column-gap: 15px;
     width: 90%;
     max-width: 1100px;
-    margin: 20px auto 10px auto;
+    margin: 50px auto;
 }
 
 div#columns figure {
