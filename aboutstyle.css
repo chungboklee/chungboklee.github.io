@@ -18,6 +18,7 @@ a {
   color: #F1C40F;
   text-decoration:none;
   font-weight: bold;
+  font-size: 14px;
 }
 
 p {
@@ -27,7 +28,7 @@ color: #555555;
 
 p#para01{
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 
@@ -50,6 +51,7 @@ body {
   position:relative;
   overflow:hidden;
   z-index:1;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   -webkit-backface-visibility: hidden;
@@ -134,7 +136,7 @@ div.item {
 
 
 #columns {
-    column-width: 990px;
+    column-width: 900px;
     width: 90%;
     max-width: 1100px;
     margin: 20px auto 0px auto;
@@ -150,7 +152,7 @@ div#columns figure {
     padding: 15px;
     padding-bottom: 10px;
   display: inline-block;
-  width: 88%;
+  width: 90%;
   min-width: 30%;
   column-break-inside: avoid;
   -webkit-box-shadow: 0px 10px 50px -18px rgba(0,0,0,0.1);
@@ -182,9 +184,10 @@ div#columns small a {
 }
 
 #profilebox{
-  padding-top: 10px;
-    margin-bottom: 10px;
+  padding-top: 15px;
+  margin-bottom: 8px;
 }
+
 
 .footer {
   text-align: center!important;
