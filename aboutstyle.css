@@ -7,14 +7,71 @@
   #columns { column-gap: 0px; }
   #columns figure { width: 100%; }
 }
+html {
+  overflow-y: scroll;
+}
+h3 {
+  margin: 0;
+}
+
+a {
+  color: #F1C40F;
+  text-decoration:none;
+  font-weight: bold;
+}
+
+p {
+margin:0;
+color: #555555;
+}
+
+p#para01{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 
 body {
   background-color: #f7f7f7;
   font-family: Calluna, Arial, sans-serif;
-  min-height: auto; <!--change later to 'auto'-->
+  min-height: auto; /* /Resizable */
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+.profile{
+  width:150px;
+  height:150px;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 7px;
+  border-radius:100%;
+  position:relative;
+  overflow:hidden;
+  z-index:1;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-webkit-transform: translate3d(0, 0, 0);
+-moz-transform: translate3d(0, 0, 0);
+/* /box shadow */
+-webkit-box-shadow: 0px 4px 18px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 4px 18px 0px rgba(0,0,0,0.1);
+box-shadow: 0px 4px 18px 0px rgba(0,0,0,0.1);
+}
+
+.profile img{
+      -webkit-transition:all .2s ease;
+      transition:all .2s ease;
+      width:150px;
+      height:150px;
+}
+
+.profile img:hover{
+    -webkit-transform:scale(1.1);
+  transform:scale(1.1);
 }
 
 .navbar {
@@ -71,15 +128,19 @@ div.item {
     padding: 0px 5px, 0px, 5px;
 }
 
+.caption:hover {
+  color:#F1C40F;
+}
 
 
 #columns {
-    column-width: 320px;
-    column-gap: 15px;
+    column-width: 990px;
     width: 90%;
     max-width: 1100px;
-    margin: 50px auto;
+    margin: 20px auto 0px auto;
+    text-align: center;
 }
+
 
 div#columns figure {
     background: #ffffff;
@@ -97,19 +158,14 @@ div#columns figure {
 box-shadow: 0px 10px 50px -18px rgba(0,0,0,0.1);
 }
 
-div#columns figure img {
-    width: 100%; height: auto;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border-bottom: 1px solid #ededed;
-    padding-bottom: 15px;
-    margin-bottom: 5px;
-}
 
 div#columns figure figcaption {
-  font-size: .9rem;
-    color: #444;
+  font-size: 18px;
+  color: #555555;
   line-height: 1.5;
+  margin-top: 0px;
+  margin-bottom: 5px;
+   font-weight:bold;
 }
 
 div#columns small { 
@@ -125,9 +181,13 @@ div#columns small a {
   transition: .4s color;
 }
 
+#profilebox{
+  padding-top: 10px;
+    margin-bottom: 10px;
+}
 
 .footer {
-  text-align: center;
+  text-align: center!important;
   margin-bottom: 30px;
   padding-bottom: 30px;
   font-size: 10px;

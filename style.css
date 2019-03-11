@@ -70,6 +70,10 @@ div.item {
     font-size: 12px; 
     padding: 0px 5px, 0px, 5px;
 }
+.caption:hover {
+  color:#F1C40F;
+}
+
 
 
 
