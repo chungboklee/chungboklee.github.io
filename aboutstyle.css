@@ -102,21 +102,17 @@ box-shadow: 0px 4px 18px 0px rgba(0,0,0,0.1);
   font-size: 17px;
   margin: 0px auto;
 }
+
 .btn {
   background-color: #f7f7f7; 
   border: none;
   color: #95a5a6;
   padding: 15px 5px 20px 5px; 
   cursor: pointer;
+  outline: 0;
+
 }
 
-.btn:hover {
-  background-color: none;
-}
-
-.btn active {
-    background-color: #333333;
-}
 
 div.item {
     vertical-align: top;
