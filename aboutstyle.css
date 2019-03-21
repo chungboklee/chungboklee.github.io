@@ -6,9 +6,12 @@
 @media screen and (max-width: 750px) { 
   #columns { column-gap: 0px; }
   #columns figure { width: 100%; }
-  #fig1{max-width:36%; font-size:12px;}
-  #fig2{max-width:36%; font-size:12px;}
+  #fig1{max-width:40%; font-size:12px;}
+  #fig2{max-width:40%; font-size:12px;}
+  .meter{display:none;}
+  span{display:none;}
 }
+
 html {
   overflow-y: scroll;
 }
