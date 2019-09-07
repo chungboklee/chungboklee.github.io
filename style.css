@@ -1,0 +1,126 @@
+@font-face{font-family:'Calluna';
+ src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/callunasansregular-webfont.woff') format('woff');
+}
+
+
+@media screen and (max-width: 750px) { 
+  #columns { column-gap: 0px; }
+  #columns figure { width: 100%; }
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: Calluna, Arial, sans-serif;
+  min-height: auto; <!--change later to 'auto'-->
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #f7f7f7;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-shadow: 0px -10px 16px -10px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0px -10px 16px -10px rgba(0,0,0,0.05);
+  box-shadow: 0px -10px 16px -10px rgba(0,0,0,0.05);
+
+}
+
+.navbar a {
+  color: #f2f2f2;
+  text-align: center;
+  display: inline-block;
+  padding: 0px 0px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0px auto;
+}
+.btn {
+  background-color: #f7f7f7; 
+  border: none;
+  color: #95a5a6;
+  padding: 15px 5px 20px 5px; 
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: none;
+}
+
+.btn active {
+    background-color: #333333;
+}
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+}
+
+
+.caption {
+    display: block;
+    font-size: 12px; 
+    padding: 0px 5px, 0px, 5px;
+}
+
+
+
+#columns {
+    column-width: 320px;
+    column-gap: 15px;
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+div#columns figure {
+    background: #ffffff;
+    border: 1px solid #ededed;
+    border-radius: 15px;
+    margin: 0 2px 15px;
+    padding: 15px;
+    padding-bottom: 10px;
+  display: inline-block;
+  width: 88%;
+  min-width: 30%;
+  column-break-inside: avoid;
+  -webkit-box-shadow: 0px 10px 50px -18px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 10px 50px -18px rgba(0,0,0,0.1);
+box-shadow: 0px 10px 50px -18px rgba(0,0,0,0.1);
+}
+
+div#columns figure img {
+    width: 100%; height: auto;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+}
+
+div#columns figure figcaption {
+  font-size: .9rem;
+    color: #444;
+  line-height: 1.5;
+}
+
+div#columns small { 
+  font-size: 1rem;
+  float: right; 
+  text-transform: uppercase;
+  color: #aaa;
+} 
+
+div#columns small a { 
+  color: #666; 
+  text-decoration: none; 
+  transition: .4s color;
+}
