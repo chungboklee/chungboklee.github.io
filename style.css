@@ -303,6 +303,6 @@ box-shadow: 0px 33px 88px -8px rgba(222,224,227,0.5);}
             div.cb-display-bottomleft{display:absolute;margin-bottom:20px;}
             div.name{font-size:12px;color:#6a82fb; font-family:'Lato',sans-serif;text-align:center;vertical-align:middle;margin: auto auto;margin-top:2px;}
             .cb-portfolio{padding:0 0 0;}
-            .cb-portfolio{border-radius:15px;}
+            .cb-portfolio{border-radius:0px;}
             .cb-container-portfolio{padding:0 0 0;}
             }
