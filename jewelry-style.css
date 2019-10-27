@@ -229,7 +229,7 @@ box-shadow: 0px 33px 88px -8px rgba(222,224,227,0.5);}
 .cb-gallery-container {
 position: relative;
 height:50%;
-margin: 0 auto;
+margin: 0 auto 20px;
 }
 .mySlides {
 display: none;
@@ -258,7 +258,7 @@ display: none;
 }
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0);
 }
 .numbertext {
   color: #f2f2f2;
@@ -266,6 +266,7 @@ display: none;
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  display:none;
 }
 .caption-container {
   text-align: center;
@@ -280,7 +281,7 @@ display: none;
 }
 .column {
   float: left;
-  width: 16.66%;
+  width: 20%;
 }
 .demo {
   opacity: 0.6;
@@ -297,7 +298,7 @@ display: none;
 
 /*배경 색상 background color-*/
 .cb-light-grey,.cb-hover-light-grey:hover,.cb-light-gray,.cb-hover-light-gray:hover{}
-.cb-bg{background-image: url("img/jewelry-bg-by-chungbok.gif");height:100%;
+.cb-bg{background-image: url("img/Portfolio/Jewelry/Jewelry-Page-BG.gif");height:100%;
   background-position: center;
   background-repeat: repeat;
   background-size: cover;}
@@ -408,6 +409,7 @@ body.fade-out{opacity: 0;
             -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
             box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);}
             div.name{font-size:15px;color:#6a82fb; font-family:'Lato',sans-serif;text-align:center;vertical-align:middle;margin: auto auto;display:inline-block;}
+            .cb-gallery-container{max-width:80%;}
             }
             
             @media screen and (max-width:830px)
@@ -418,4 +420,5 @@ body.fade-out{opacity: 0;
             .cb-portfolio{border-radius:0px;}
             .cb-container-portfolio{padding:0 0 0;}
             nav > ul > li {padding:0 8px;font-size:12px;}
+            .cb-gallery-container{max-width:100%;}
             }
