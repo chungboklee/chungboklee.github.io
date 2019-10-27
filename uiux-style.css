@@ -230,13 +230,14 @@ box-shadow: 0px 33px 88px -8px rgba(222,224,227,0.5);}
 .cb-gallery-container {
 position: relative;
 height:50%;
-margin: 0 auto 20px;
+margin: 0 auto;
 }
 .mySlides {
 display: none;
 margin-bottom:20px;
 }
-.mySlides img{border-bottom-left-radius:25px;border-bottom-right-radius:25px;
+.mySlides img{border-radius:20px;
+	margin-bottom:20px;
 -webkit-box-shadow: 0px 33px 88px -8px rgba(222,224,227,0.5);
 -moz-box-shadow: 0px 33px 88px -8px rgba(222,224,227,0.5);
 box-shadow: 0px 33px 88px -8px rgba(222,224,227,0.5)}
