@@ -440,4 +440,5 @@ body.fade-out{opacity: 0;
             .cb-gallery-container{max-width:100%;}
             .column1st{border-top-left-radius:10px!important;border-bottom-left-radius:10px!important;}
             .columnlast{border-top-right-radius:10px!important;border-bottom-right-radius:10px!important;}
+            .column{margin-top:30px;}
             }
