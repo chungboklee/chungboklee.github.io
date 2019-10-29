@@ -6,10 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css"/>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type='text/javascript' src='js/jquery.ba-hashchange.min.js'></script>
+<script type='text/javascript' src='js/dynamicpage.js'></script>
 <script src="jquery-3.4.1.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--Font-->
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
 <!--Favicon-->
@@ -19,7 +21,11 @@
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
+
+
+
 <body class="cb-light-grey">
+
 <!--Every Page JS-->
 <script>document.body.className += ' fade-out';
 
@@ -29,21 +35,23 @@ $(function() {
 </script>
 <!--Every Page JS end-->
 
+
+
+
+
 <!-- Page Container -->
 <div class="cb-content cb-margin-top" style="max-width:1400px;">
+ <!-- Nav for Mobile (archived)
+ <nav class="cb-about-nav-mobile">
+      <ul>
+      <li><a href="index.html" style="font-weight:bold;"><i class="fa fa-id-card-o" aria-hidden="true" style="margin-right:6px;"></i>profile</a></li>
+      <li style="margin-left:20px!important;"><a href="portfolio.html"><i class="fa fa-picture-o" aria-hidden="true"style="margin-right:6px;"></i>portfolio</a></li>
+    </ul>
+    </nav>
+  -->
 
   <!-- The Grid -->
     <div class="cb-row-padding">
-    
-    <nav class="cb-about-nav">
-      <ul>
-      <li><a href="index.html" style="font-weight:bold;">profile</a></li>
-      <li><a href="jewelry.html">jewelry</a></li>
-      <li><a href="web-design.html">web design</a></li>
-      <li><a href="ganada-project.html">ganada project</a></li>
-    </ul>
-    </nav>
-
     <!-- Left Column -->
     <div class="cb-third">
     
@@ -114,7 +122,20 @@ $(function() {
 
     <!-- Experience -->
     <div class="cb-twothird">
-    
+     <nav class="cb-about-nav">
+      <ul>
+      <li><a href="index.html" style="font-weight:bold;"><i class="fa fa-id-card-o" aria-hidden="true"style="margin-right:6px;"></i>profile</a></li>
+      <li><a href="portfolio.html"><i class="fa fa-picture-o" aria-hidden="true"style="margin-right:6px;"></i>portfolio</a></li>
+     <li class="nav-social">
+     <a href="https://www.facebook.com/chungbok" target="_blank"><i class="fa fa-facebook-square" style="margin-right:15px;"></i></a>
+  <a href="https://www.instagram.com/cb.on" target="_blank"><i class="fa fa-instagram" style="margin-right:15px;"></i></a>
+  <a href="https://www.pinterest.co.kr/dotollee/" target="_blank"><i class="fa fa-pinterest-square"></i></a></li>
+  </ul>
+    </nav>
+
+
+
+
       <div class="cb-container cb-card cb-white cb-margin-bottom">
         <h2 class="text-grey cb-padding-16" style="font-size:22px!important;color:#111314!important;margin-left:5px;">
           <b><i class="fa fa-check-square-o" style="margin-left:10px;margin-right:8px"></i>Experience
