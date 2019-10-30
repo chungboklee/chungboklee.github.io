@@ -7,7 +7,7 @@ html{}*,*:before,*:after{box-sizing: border-box;}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{height:auto; margin:0;top:0;}body{margin:0}
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
-audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
+audio,canvas,progress,video{}progress{vertical-align:baseline}
 audio:not([controls]){display:none;height:0}[hidden],template{display:none}
 a{background-color:transparent}a:active,a:hover{outline-width:0}
 abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
@@ -37,29 +37,32 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .nav-container{
 	tex-align:left;
 	position:absolute;
-}
+	max-width:980px;
+	left:8%;}
 nav.cb-about-nav{
 overflow:hidden;
 top:0;
-text-align:left;
+text-align:center;
 padding:0px 0px;
 margin-bottom:20px;
 margin-top:50px;
-margin-left:30px;
-border-radius:20px;
+border-radius:10px;
 background-color:rgba(255,255,255,0.3);
 }
+nav.cb-about-nav:hover{background-color:rgba(255,255,255,0.4);
+transition: all .5s;}
 nav ul {
 padding-inline-start: 0px; 
 }
 nav ul li {
 display: inline-block;
 padding: 0px 22px;
+color:#88929c;
 }
 nav ul li a {
 display: block;
 text-decoration: none;
-color: #111314;
+color: #dee0e3;
 font-weight: 200;
 text-transform: lowercase;
 }
@@ -69,7 +72,7 @@ nav ul li a:before {
 transition: all .5s;
 }
 nav ul li a:hover {
-color: #000000;
+color: #dee0e3;
 }
 
 .cb-image{}img{vertical-align:middle}a{color:inherit}
@@ -239,11 +242,29 @@ background-repeat: no-repeat;
 background-size: cover;
 max-width:980px;
 }
+#mySlidesvideo{
+	 background-position: center;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  top:0;
+  z-index:-1;
+  display:inline-block;
+  max-width:100%;
+}
+.mySlides img{background-repeat: no-repeat;
+  background-position: center;
+-webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  top:0;
+height:100%;}
 
-.mySlides img{height:-webkit-fill-available;}
 .mySlides {
 display: none;
-height:auto;
+
 }
 
 
@@ -254,28 +275,30 @@ height:auto;
 .next {
   cursor: pointer;
   position: absolute;
-  top:57%;
+  top:45%;
   width:auto;
   padding: 16px;
   margin-top: -50px;
-  color: #111314;
+  color: #88929c;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
-    background-color: rgba(255, 255, 255, 0.3);
+  background-color:rgba(255,255,255,0.3);
   border-radius:10px;
+  z-index:10;
 }
 .next {
-  right: 13.5%;
+  right: 8%;
     border-radius:10px;
 }
 .prev {
-	left:13.5%;
+	left:8%;
 }
 .prev:hover,
-.next:hover {
+.next:hover {background-color:rgba(255,255,255,0.4);
+transition: all .5s;
 }
 .numbertext {
   color: #f2f2f2;
