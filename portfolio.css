@@ -344,7 +344,7 @@ transition: all .5s;
 .cb-bg{}
 body{opacity: 1;
     transition: 1s opacity;}
-body.fade-out{opacity: 0;
+body.fade-out{opacity: 0.5;
     transition: none;}
 
 
