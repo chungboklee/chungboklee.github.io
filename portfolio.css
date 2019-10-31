@@ -57,7 +57,8 @@ padding-inline-start: 0px;
 nav ul li {
 display: inline-block;
 padding: 0px 22px;
-color:#88929c;
+color:#111314;
+font-weight:bold;
 }
 nav ul li a {
 display: block;
@@ -279,7 +280,7 @@ display: none;
   width:auto;
   padding: 16px;
   margin-top: -50px;
-  color: #88929c;
+  color: #11314;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
