@@ -1,4 +1,4 @@
-# leegend91.github.io
-Portfolio Page
+# chungbok.github.io
+Profile Page
 by Chung-bok Lee<br>
 lee@collector.org
