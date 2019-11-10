@@ -35,7 +35,7 @@ nav.cb-about-nav{
 overflow:hidden;
 top:0;
 text-align:left;
-padding:15px 0;
+padding:15px;
 margin-bottom:20px;
 border-radius:20px;
 background-color:rgba(255,255,255,0.8);
@@ -44,7 +44,7 @@ background-color:rgba(255,255,255,0.8);
 box-shadow: 0px 33px 88px -8px rgba(222,224,227,0.5);
 }
 nav ul {
-padding-inline-start: 0px; 
+padding:0.01em 7px;
 }
 nav ul li {
 display: inline-block;
@@ -365,7 +365,6 @@ body.fade-out{opacity: 0;
             .cb-portfolio{padding:0 0 0;}
             .cb-portfolio{border-radius:0px;}
             .cb-container-portfolio{padding:0 0 0;}
-            nav > ul > li {padding:0 8px;font-size:12px;}
             nav.cb-about-nav{display:none;}
             .cb-footer-mobile{display:block;}
             .cb-container-footer{display:none;}
