@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chung-bok Lee</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="portfolio.css"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="jquery-3.4.1.min.js"></script>
+
+<!--Font-->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+<!--Favicon-->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+
+
+<style>html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}</style>
+
+
+
+<!--Every Page JS-->
+<script>document.body.className += ' fade-out';
+$(function() {
+$('body').removeClass('fade-out');
+});
+</script>
+<!--Every Page JS end-->
+
+
+
+
+<body style="background-color:#111314;">
+  
+<div class="cb-gallery-container">
+
+  <div class="nav-container">
+   <a href="index.html">
+   <nav class="cb-about-nav">
+   <ul>
+   <li>back</li>
+   </ul>
+   </nav></a>
+  </div>
+  
+  <div class="mySlides w3-animate-opacity">
+   <img src="img/Portfolio/jewelry-earring.gif" style="width:100%;" alt="Please use Chrome for pictures to be shown.">
+  </div>
+
+  <div class="mySlides w3-animate-opacity">
+   <img src="img/Portfolio/jewelry-bracelet-linked.gif" style="width:100%" alt="Please use Chrome for pictures to be shown.">
+  </div>
+
+  <div class="mySlides w3-animate-opacity">
+   <img src="img/Portfolio/jewelry-bracelet-unlinked.gif" style="width:100%" alt="Please use Chrome for pictures to be shown.">
+  </div>
+    
+  <div class="mySlides w3-animate-opacity">
+   <img src="img/Portfolio/jewelry-neckpiece.gif" style="width:100%" alt="Please use Chrome for pictures to be shown.">
+  </div>
+
+  <div class="mySlides w3-animate-opacity">
+   <img src="img/Portfolio/mucha-slide.png" style="width:100%" alt="Please use Chrome for pictures to be shown.">
+  </div>
+
+  <div class="mySlides w3-animate-opacity">
+   <img src="img/Portfolio/coinhub-slide.png" style="width:100%" alt="Please use Chrome for pictures to be shown.">
+  </div>
+
+  <div class="mySlides w3-animate-opacity">
+   <img src="img/Portfolio/Wearbe-Slide2.png" style="width:100%" alt="Please use Chrome for pictures to be shown.">
+  </div>
+
+  <div class="mySlides w3-animate-opacity">
+   <img src="img/Portfolio/wearbe-slide.png" style="width:100%" alt="Please use Chrome for pictures to be shown.">
+  </div>
+
+  <div class="mySlides w3-animate-opacity">
+   <img src="img/Portfolio/werbe-projectmanagement.png" style="width:100%" alt="Please use Chrome for pictures to be shown.">
+  </div>
+
+  <div class="mySlides w3-animate-opacity">
+   <img src="img/Portfolio/wearbe-singlepage-prototype-slide2.gif" style="width:100%" alt="Please use Chrome for pictures to be shown.">
+  </div>
+
+
+  <div class="mySlides w3-animate-opacity">
+   <img src="img/Portfolio/wearbe-uiux.png" style="width:100%" alt="Please use Chrome for pictures to be shown.">
+  </div>
+
+  <div class="mySlides w3-animate-opacity">
+   <img src="img/Portfolio/wearbe-customer.gif" style="width:100%" alt="Please use Chrome for pictures to be shown.">
+  </div>
+  
+  <div class="mySlides w3-animate-opacity">
+   <img src="img/Portfolio/Size-Comparison-UIUX-Comparison-Before.png" style="width:100%;" alt="Please use Chrome for pictures to be shown.">
+  </div>
+
+  <div class="mySlides w3-animate-opacity">
+   <img src="img/Portfolio/Size-Comparison-UIUX-Comparison-After.png" style="width:100%" alt="Please use Chrome for pictures to be shown.">
+  </div>
+
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("demo");
+var captionText = document.getElementById("caption");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+</div>
+</body>
+</html>
