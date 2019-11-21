@@ -111,57 +111,7 @@ img.cb-portfolio-thumb {
   margin-right:10px;
   border-radius:15px;
 }
-
-div.cb-thumbnailtab-next {
-  display: table-row;
-  float:left;
-  width:100px;
-  margin:auto;
-   vertical-align:middle;
-}
-  div.cb-thumbnailtab-next img {
-  height:auto;
-  width:50%;
-  border-radius:15px;
-  
-}
-
-/*Portfolio Image JEWELRY Thumbnail Tabs*/
-div.cb-thumbnailtab-jewelry {
-  display: table-row;
-  float:left;
-  margin: 5px 10px 33px 0;
-  width:100px;
-}
-
-div.cb-thumbnailtab-jewelry:hover {
-}
-
-div.cb-thumbnailtab-jewelry img {
-  height:auto;
-  width:100%;
-  border-radius:15px;
-}
-
-/*Portfolio Image GRAPHICS Thumbnail Tabs*/
-div.cb-thumbnailtab-graphics {
-  display: table-row;
-  float:left;
-  margin: 5px 0 33px 0;
-  height:100px;
-}
-
-div.cb-thumbnailtab-graphics:hover {
-}
-
-div.cb-thumbnailtab-graphics img {
-  height:100%;
-  margin-right:10px;
-  width:auto;
-  border-radius:15px;
-}
-
-
+.cb-portfolio-words{font-family:'Open Sans',sans-serif;font-weight:600;display:inline-block;vertical-align:middle;color:#111314;font-size:15px;}
 
 
 
@@ -218,5 +168,6 @@ div.cb-thumbnailtab-jewelry{width:88px;}
 div.cb-thumbnailtab-jewelry img{width: 100%;border-radius:8px;}
 div.cb-thumbnailtab-graphics{height:88px;}
 div.cb-thumbnailtab-graphics img{height: 100%;border-radius:8px;}
-img.cb-portfolio-thumb {margin-bottom:10px; width:55px; margin-right:5px;}
+img.cb-portfolio-thumb {margin-bottom:10px; width:77px; margin-right:7px;}
+.cb-portfolio-words{font-size:15px;}
 }
