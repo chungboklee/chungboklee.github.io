@@ -17,7 +17,7 @@ b{font-family:'Open Sans',sans-serif;font-weight:600;font-size:12px;}
 /*-------------------Layers Style (Code starts=cb)-------------------*/
 .cb-background{
 color:#000!important;
-background-color:#f6f8f9!important;
+background-color:#ffffff!important;
 }
 .cb-footer-web{padding:0.01em 16px;color:#f1f2f3;}
 .cb-footer-mobile{padding:0.01em 16px;color:#f1f2f3;display:none;}

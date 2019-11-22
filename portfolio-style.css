@@ -17,7 +17,7 @@ b{font-family:'Open Sans',sans-serif;font-weight:600;font-size:12px;}
 /*-------------------Layers Style (Code starts=cb)-------------------*/
 .cb-background{
 color:#000!important;
-background-color:#f6f8f9!important;
+background-color:#ffffff!important;
 }
 .cb-footer-web{padding:0.01em 16px;color:#f1f2f3;}
 .cb-footer-mobile{padding:0.01em 16px;color:#f1f2f3;display:none;}
@@ -110,6 +110,9 @@ img.cb-portfolio-thumb {
   width:88px;
   margin-right:10px;
   border-radius:15px;
+  -webkit-box-shadow: 0px 5px 21px 0px rgba(0,0,0,0.08);
+  -moz-box-shadow: 0px 5px 21px 0px rgba(0,0,0,0.08);
+  box-shadow: 0px 5px 21px 0px rgba(0,0,0,0.08);
 }
 .cb-portfolio-title{font-family:'Open Sans',sans-serif;font-weight:600;display:inline-block;vertical-align:middle;color:#111314;font-size:15px;}
 .cb-portfolio-subtitle{font-family:'Open Sans',sans-serif;font-weight:600; color:#282b2e!important;font-size:12px;}
