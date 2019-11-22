@@ -25,7 +25,7 @@ html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}
 html{overflow-x:hidden}
 body{
 opacity: 1;
-transition: 0.5s opacity;
+transition: 0.88s opacity;
 }
 body.fade-out{
 opacity: 0.5;
