@@ -101,24 +101,21 @@ a {
 .codrops-top {
 	line-height: 24px;
 	font-size: 11px;
-	background: #fff;
-	background: rgba(255, 255, 255, 0.8);
-	text-transform: uppercase;
+
+
+	text-transform: lowercase;
 	z-index: 9999;
 	position: relative;
-	font-family: Cambria, Georgia, serif;
-	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+	font-family: 'Lato', sans-serif;
 }
-
 .codrops-top a {
-	padding: 0px 10px;
+	padding: 10px 15px;
 	letter-spacing: 1px;
-	color: #333;
+	color: #88929c;
 	display: inline-block;
 }
 
 .codrops-top a:hover {
-	background: rgba(255,255,255,0.6);
 }
 
 .codrops-top span.right {
@@ -162,3 +159,5 @@ a {
 	color: #aaa;
 	border-color: #aaa;
 }
+@media screen and (max-width: 660px) {
+.codrops-top a {padding: 0px 15px;}}
