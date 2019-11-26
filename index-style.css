@@ -16,8 +16,7 @@ b{font-family:'Open Sans',sans-serif;font-weight:600;font-size:12px;}
 
 /*-------------------Layers Style (Code starts=cb)-------------------*/
 .cb-background{
-color:#000!important;
-background-color:#ffffff!important;
+background-color:#fefefe!important;
 }
 .cb-footer-web{padding:0.01em 16px;color:#f1f2f3;}
 .cb-footer-mobile{padding:0.01em 16px;color:#f1f2f3;display:none;}
@@ -35,20 +34,20 @@ content:"";display:table;clear:both;
 }
 .cb-layer02,.cb-layer02>.cb-left,.cb-layer02>.cb-right{
 padding:0 8px;
-border-radius: 25px;
+border-radius: 36px;
 }
 .cb-left{
 float:left;
 width:100%; 
 margin-bottom:18px;
-border-radius:25px;
+border-radius:36px;
 }
 .cb-left-layer01{
-background-color:rgba(255,255,255,0.8)!important;
-border-radius: 25px;
--webkit-box-shadow: 0px 33px 88px -8px rgba(222,224,227,0.5);
--moz-box-shadow: 0px 33px 88px -8px rgba(222,224,227,0.5);
-box-shadow: 0px 33px 88px -8px rgba(222,224,227,0.5);
+background-color:#ffffff!important;
+border-radius: 36px;
+-webkit-box-shadow: 0px 0px 22px -8px rgba(222,224,227,0.77);
+-moz-box-shadow: 0px 0px 222px -8px rgba(222,224,227,0.77);
+box-shadow: 0px 0px 22px -8px rgba(222,224,227,0.77);
 }
 .cb-left-layer01-layout{
 position:relative;
@@ -62,9 +61,9 @@ text-align:center;
 }
 .cb-left-layer01-profilepicture img{
 max-width:66%;
-border-top-left-radius:25px;
-border-top-right-radius:25px;
-opacity:0.95;
+border-top-left-radius:36px;
+border-top-right-radius:36px;
+opacity:0.88;
 }
 .cb-left-layer01-basicinfo i{
 margin-right:10px!important;
@@ -86,18 +85,17 @@ border-radius:16px;
 }
 .cb-right{
 float:right;
-width:100%; 
-border-radius: 25px;
+width:100%;
 }
 .cb-right-box{
 color:#000!important;
-background-color:rgba(255,255,255,0.8)!important;
-border-radius: 25px;
+background-color:#fff!important;
+border-radius: 36px;
 margin-bottom:18px!important;
 padding:0.01em 16px;
--webkit-box-shadow: 0px 33px 88px -8px rgba(222,224,227,0.5);
--moz-box-shadow: 0px 33px 88px -8px rgba(222,224,227,0.5);
-box-shadow: 0px 33px 88px -8px rgba(222,224,227,0.5);
+-webkit-box-shadow: 0px 0px 22px -8px rgba(222,224,227,0.77);
+-moz-box-shadow: 0px 0px 222px -8px rgba(222,224,227,0.77);
+box-shadow: 0px 0px 22px -8px rgba(222,224,227,0.77);
 }
 .cb-right-box-title{
 padding-top:16px!important;

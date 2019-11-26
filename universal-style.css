@@ -39,9 +39,9 @@ padding:3px 15px;
 margin-bottom:15px;
 border-radius:25px;
 background-color:rgba(255,255,255,0.8);
--webkit-box-shadow: 0px 33px 88px -8px rgba(222,224,227,0.5);
--moz-box-shadow: 0px 33px 88px -8px rgba(222,224,227,0.5);
-box-shadow: 0px 33px 88px -8px rgba(222,224,227,0.5);
+-webkit-box-shadow: 0px 8px 8px -8px rgba(222,224,227,0.33);
+-moz-box-shadow: 0px 8px 8px -8px rgba(222,224,227,0.33);
+box-shadow: 0px 8px 8px -8px rgba(222,224,227,0.33);
 }
 nav ul {padding:0.01em 7px;}
 nav ul li {
