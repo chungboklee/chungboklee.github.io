@@ -58,8 +58,9 @@ nav ul li a,
 nav ul li a:after,
 nav ul li a:before {transition: all .5s;}
 nav ul li a:hover {color: #44494e;}
-li.cb-nav-social{float:right; display:flex;margin-right:30px;}
-li.cb-nav-social a{margin-right:5px; font-size:15px;color:#88929c;}
+.cb-nav-social{float:right; display:flex;margin-right:30px;}
+.cb-nav-social a{margin-right:5px; font-size:15px;color:#88929c;}
+.cb-nav-social a:hover{color:#88929c;}
 nav.cb-nav-mobile{
 z-index:999;
 overflow:hidden;
