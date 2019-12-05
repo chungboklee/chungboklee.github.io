@@ -11,7 +11,7 @@ https://chungboklee.github.io
 
 
 ## 
-![GitHub](https://img.shields.io/github/license/chungboklee/chungboklee.github.io)<br>
+![GitHub](https://img.shields.io/github/license/chungboklee/chungboklee.github.io?logo=Chungbok)<br>
 All Artworks / Graphics / Images / Icons *except* font-awesome elements<br>
 are made by Chung-bok Lee
 
