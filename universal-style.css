@@ -31,6 +31,7 @@ body.fade-out{
 opacity: 0.5;
 transition: none;
 }
+nav {display:none;}
 nav.cb-nav-web{
 overflow:hidden;
 top:0;
