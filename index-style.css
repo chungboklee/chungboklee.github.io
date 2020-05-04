@@ -154,7 +154,7 @@ color:#44494e;
 @media (min-width:810px){.cb-left{width:30%}.cb-right{width:70%} nav.cb-nav-mobile{display:none;}}
 @media screen and (max-width:809px){
 nav.cb-nav-web{display:none;}
-nav.cb-nav-mobile{display:block;}
+nav.cb-nav-mobile{display:none;}/*change back to "block" after JS rework*/
 .cb-footer-mobile{display:block;}
 .cb-footer-web{display:none;}
 }
