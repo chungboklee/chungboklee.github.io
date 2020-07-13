@@ -2,12 +2,12 @@
 /* Style begins */
 /*-------------------Main Components Layout in Design-tool style-------------------*/
 /*-------------------Inner-Universal Style (Code starts=us)-------------------*/
-h1{font-family:'Lato',sans-serif;font-weight:800;font-size:20px; margin:10px 0}/*Big Title, 이름 등*/
-h2{font-family:'Lato',sans-serif;font-weight:600;font-size:18px; margin:10px 0;}/*Experience, Education 기관 이름*/
-h3{font-family:'Lato',sans-serif;font-weight:800;font-size:15px;}/*Inner-box Sub-title*/
-h4{font-family:'Open Sans',sans-serif;font-weight:600;font-size:12px;}/*Skill Groups*/
-p{font-family:'Open Sans',sans-serif;font-weight:400;font-size:12px; margin:8px auto 8px 0;}/*W O R D*/
-b{font-family:'Open Sans',sans-serif;font-weight:600;font-size:12px;}
+h1{font-family:'Roboto',sans-serif;font-weight:800;font-size:20px; margin:10px 0}/*Big Title, 이름 등*/
+h2{font-family:'Roboto',sans-serif;font-weight:600;font-size:18px; margin:10px 0;}/*Experience, Education 기관 이름*/
+h3{font-family:'Roboto',sans-serif;font-weight:800;font-size:16px;}/*Inner-box Sub-title*/
+h4{font-family:'Roboto',sans-serif;font-weight:600;font-size:14px;}/*Skill Groups*/
+p{font-family:'Roboto',sans-serif;font-weight:400;font-size:14px; margin:8px auto 8px 0;}/*W O R D*/
+b{font-family:'Roboto',sans-serif;font-weight:600;font-size:14px;}
 .us-smaller-fonts{font-family:'Open Sans',sans-serif;font-weight:400;font-size:12px!important;}
 .us-centering{width:auto;text-align:center!important;}
 .us-currenttag{background-color:#6acbfb;color:#ffffff;display:inline-block;margin-left:2px;padding:1.5px 10px;text-align:center;border-radius:18px;font-size:13px;font-weight:600;}
