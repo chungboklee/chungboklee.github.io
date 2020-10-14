@@ -1,5 +1,6 @@
 /* stylelint-disable selector-list-comma-newline-after */
-
+html{text-decoration: none!important;
+}
 header{
   position:fixed;
   top:0;
@@ -7,14 +8,30 @@ header{
   width:100%;
   background-color:rgba(243,244,245,0.7);
   border-bottom: 0.5px solid rgba(201,206,210,0.7);
-    backdrop-filter: blur(30px);
-    -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
+a{
+  text-decoration: none!important;
+}
+
+a:hover{
+  text-decoration: none!important;
+}
+
+a:visited{
+  text-decoration: none!important;
+}
+
+a:line{
+  text-decoration: none!important;
 }
 
 body{
   margin-top:80px;
   background-color:#f3f4f5;
 }
+
 .blog-header {
   line-height: 1.25rem;
 }
@@ -28,9 +45,14 @@ body{
   text-decoration: none;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
+.text-primary{color:#007bff!important;}
+.text-primary:link{color:#007bff!important;}
+.text-primary:hover{color:#007bff!important;}
+.text-primary:active{color:#007bff!important;}
 
 .display-4 {
   font-size: 2.5rem;
