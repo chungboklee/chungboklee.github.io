@@ -19,7 +19,7 @@ a{
 body{
   margin-top:90px;
   background-color:#f7f8f9;
-  font-family: "font-family: 'Noto Sans KR', sans-serif;";
+  font-family: "font-family: 'Noto Sans KR', roboto, sans-serif;";
 }
 
 .blog-header {
@@ -32,17 +32,17 @@ body{
 
 
 h1, h2 {
-  font-family: "font-family: 'Noto Sans KR', sans-serif;";
+  font-family: "font-family: 'Noto Sans KR', roboto, sans-serif;";
   font-weight:900;
 }
 
 h3, h4, h5 {
-  font-family: "font-family: 'Noto Sans KR', sans-serif;";
+  font-family: "font-family: 'Noto Sans KR', roboto, sans-serif;";
   font-weight:700;
 }
 
 h6 { 
-  font-family: "font-family: 'Noto Sans KR', sans-serif;";
+  font-family: "font-family: 'Noto Sans KR', roboto, sans-serif;";
   font-weight:500;}
 
 .display-4 {
