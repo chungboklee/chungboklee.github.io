@@ -1,6 +1,11 @@
 /* stylelint-disable selector-list-comma-newline-after */
 html{text-decoration: none!important;
 }
+@media (min-width:1200px){
+.container{
+  max-width:1024px!important;
+}
+}
 header{
   position:fixed;
   top:0;
