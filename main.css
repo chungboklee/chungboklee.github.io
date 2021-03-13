@@ -106,6 +106,10 @@ p{font-weight: 400;}
     border-radius: 10px!important ;
 }
 
+.jumbotron {
+  margin-bottom:1rem!important;
+}
+
 .h-250 { height: 250px; }
 @media (min-width: 768px) {
   .h-md-250 { height: 250px; }
