@@ -29,6 +29,9 @@ body{
   background-color: #f7f8f9;
   font-family: 'Noto Sans KR', verdana, arial, sans-serif;
 }
+
+footer{margin-top:90px}
+
 .container{
         -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1s; /* Firefox < 16 */
