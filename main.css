@@ -1,5 +1,7 @@
 /* stylelint-disable selector-list-comma-newline-after */
-html{text-decoration: none!important;
+html{
+  text-decoration: none!important;
+  word-break:keep-all;
 }
 @media (min-width:1200px){
 .container{
