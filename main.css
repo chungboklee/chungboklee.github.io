@@ -40,6 +40,13 @@ body{
 
 footer{margin-top:90px}
 
+
+.jumbotron-profilecard{   
+  background: url('img/main/1.png'), linear-gradient(315deg, #2b7c4e, #3fb572, #38a266);
+  background-size: cover, 100% 100%;
+  background-position : right, center;
+}
+
 .container{
         -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1s; /* Firefox < 16 */
