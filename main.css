@@ -47,6 +47,11 @@ footer{margin-top:90px}
   background-position : right, center;
 }
 
+.jumbotron{
+  border:0.5px solid #dedede;
+  border-radius:30px!important;
+}
+
 .container{
         -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1s; /* Firefox < 16 */
