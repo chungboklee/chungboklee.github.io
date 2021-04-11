@@ -22,8 +22,10 @@ header{
 
 a{
   text-decoration: none!important;
-  color: #6a82fb;
+  color: #3fb572;
 }
+
+a:hover{color:#3fb572;}
 
 body{
   margin-top: 90px;
