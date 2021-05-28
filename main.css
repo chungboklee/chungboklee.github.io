@@ -2,7 +2,6 @@
 html{
   text-decoration: none!important;
   word-break:keep-all;
-  overflow: hidden;
 }
 
 @media (min-width:1200px){
