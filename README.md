@@ -1,2 +1,2 @@
 # personal
-Personal blogging webpage
+Personal Log
