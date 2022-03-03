@@ -9,6 +9,7 @@ html{
   max-width:1024px!important;
 }
 }
+
 header{
   position:fixed;
   top:0;
@@ -31,6 +32,7 @@ body{
   margin-top: 90px;
   background-color: #fefefe;
   font-family: 'Noto Sans KR', verdana, arial, sans-serif;
+  font-size: 16px;
 }
 
 ::selection {
