@@ -2,6 +2,7 @@
 html{
   text-decoration: none!important;
   word-break:keep-all;
+  overflow-y: scroll;
 }
 
 @media (min-width:1200px){
@@ -138,7 +139,7 @@ p{
 .nav-scroller {
   position: relative;
   z-index: 2;
-  height: 2.75rem;
+  height: 3rem;
   overflow-y: hidden;
 }
 
@@ -160,6 +161,45 @@ p{
   padding-bottom: .75rem;
   font-size: .875rem;
 }
+
+.icon-blog{
+  display: inline-block;
+  width:32px;
+  height:32px;
+  position:relative;
+}
+
+.icon-blog .blogHovered{
+  display: none;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:99;
+}
+
+.icon-blog:hover .blogHovered{
+  display: inline;
+}
+
+.icon-project{
+  display: inline-block;
+  width:32px;
+  height:32px;
+  position:relative;
+}
+
+.icon-project .projectHovered{
+  display: none;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:99;
+}
+
+.icon-project:hover .projectHovered{
+  display: inline;
+}
+
 
 .card-img-right {
   height: 100%;
@@ -220,3 +260,5 @@ p{
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+
