@@ -1,2 +1,2 @@
 # personal
-Personal Log
+Personal Website
