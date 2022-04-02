@@ -231,6 +231,12 @@ p{
   .h-md-250 { height: 250px; }
 }
 
+.list-icontext li{
+  line-height: 1rem;
+}
+
+li span{vertical-align: middle;}
+
 /* Pagination */
 .blog-pagination {
   margin-bottom: 4rem;
