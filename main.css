@@ -37,6 +37,8 @@ a{
 a:hover{color:#3fb572;}
 
 body{
+  position:relative;
+  min-height: 100vh;
   margin-top: 90px;
   background-color: #fefefe;
   font-family: 'Noto Sans KR', verdana, arial, sans-serif;
@@ -50,7 +52,9 @@ body{
   background: #d5d7db; /* Gecko Browsers */
 }
 
-footer{margin-top:90px}
+footer{
+  margin-top:90px;  
+}
 
 
 .jumbotron-profilecard{   
@@ -269,6 +273,7 @@ li span{vertical-align: middle;}
   text-align: center;
   background-color: #f1f2f3;
   border-top: .05rem solid #d5d7db;
+
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
