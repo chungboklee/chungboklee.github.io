@@ -104,7 +104,7 @@ footer{
     to   { opacity: 1; }
 }
 
-.blog-header {
+.header {
   line-height: 1.5rem;
   font-weight: 400;
   color: #111314!important;
@@ -137,15 +137,6 @@ p{
 }
 
 /* --- font 1 --- */
-
-.display-4 {
-  font-size: 2.5rem;
-}
-@media (min-width: 768px) {
-  .display-4 {
-    font-size: 3rem;
-  }
-}
 
 .nav-scroller {
   position: relative;
@@ -225,25 +216,25 @@ p{
 }
 
 .banner-title{
-
+  padding:  88px 48px 48px;
 }
 
 .banner-title .title-position{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   color: #737e8a;
   margin-bottom: 0;
 }
 
 .banner-title .title-name{
-  font-size: 32px;
+  font-size: 1.75rem;
   letter-spacing: -1px;
   color: #111314;
   margin: 0;
 }
 
 .banner-project{
-
+  padding:  36px 48px 16px;
 }
 
 .banner-project .project-category{
@@ -274,6 +265,15 @@ p{
   font-size: 14px;
   color: #dee0e3;
   font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .banner-title{
+  padding:  48px 24px 24px;
+}
+  .banner-project{
+  padding:  28px 24px 8px;
+}
 }
 
 .h-250 { height: 250px; }
