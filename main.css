@@ -58,7 +58,7 @@ footer{
 
 
 .jumbotron-profilecard{   
-  background: url('img/main/1.png');
+  background: url('assets/img/main/1.png');
   background-size: cover, 100% 100%;
   background-position : right, center;
 }
