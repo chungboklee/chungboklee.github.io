@@ -40,7 +40,7 @@ body{
   position:relative;
   min-height: 100vh;
   margin-top: 90px;
-  background-color: #fefefe;
+  background-color: #f7f8f9;
   font-family: 'Noto Sans KR', verdana, arial, sans-serif;
   font-size: 16px;
 }
@@ -251,6 +251,7 @@ p{
 
 .banner-project .project-position{
   font-size: 14px;
+  font-weight: bold;
   color: #6a82fb;
   margin-bottom: 0;
 }
@@ -263,7 +264,7 @@ p{
 
 .banner-project .project-time-archived{
   font-size: 14px;
-  color: #dee0e3;
+  color: #d5d7db;
   font-style: italic;
 }
 
@@ -271,6 +272,20 @@ p{
   .banner-title{
   padding:  48px 24px 24px;
 }
+ .banner-title .title-position{
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #737e8a;
+  margin-bottom: 0;
+}
+
+.banner-title .title-name{
+  font-size: 20px;
+  letter-spacing: -1px;
+  color: #111314;
+  margin: 0;
+}
+
   .banner-project{
   padding:  28px 24px 8px;
 }
@@ -282,6 +297,7 @@ p{
 }
 
 .list-icontext li{
+  margin-bottom: 16px;
   line-height: 1rem;
 }
 
