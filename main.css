@@ -1,4 +1,5 @@
 /* stylelint-disable selector-list-comma-newline-after */
+
 html{
   text-decoration: none!important;
   word-break:keep-all;
@@ -116,18 +117,18 @@ footer{
 h1, h2 {
   font-family: 'Noto Sans KR', verdana, arial, sans-serif;
   font-weight:900;
-  color:#3e4549;
+  color:#111314;
 }
 
 h3, h4, h5 {
   font-family: 'Noto Sans KR', verdana, arial, sans-serif;
   font-weight:700;
-  color:#3e4549;
+  color:#111314;
 }
 
 h6 { 
   font-family: 'Noto Sans KR', verdana, arial, sans-serif;
-  font-weight:600;}
+  font-weight:500;}
 
 p{
   font-family: 'Noto Sans KR', verdana, arial, sans-serif;
@@ -252,20 +253,34 @@ p{
 .banner-project .project-position{
   font-size: 14px;
   font-weight: bold;
-  color: #6a82fb;
+  color: #3fb572;
   margin-bottom: 0;
 }
 
 .banner-project .project-time{
   font-size: 14px;
-  color: #3fb572;
+  color: #aab1b8;
   font-style: italic;
 }
 
-.banner-project .project-time-archived{
-  font-size: 14px;
-  color: #d5d7db;
-  font-style: italic;
+
+
+.chart {
+  margin-top:0.5rem;
+  height: 0.75rem;
+  width: 100%;
+  border-radius: 1rem;
+  background-color:#dee0e3;
+}
+
+.chart div {
+  height: 100%;
+  float: left;
+}
+
+.chart-fill{
+  border-radius: 1rem;
+  background-color:#aab1b8;
 }
 
 @media (max-width: 768px) {
@@ -322,5 +337,4 @@ li span{vertical-align: middle;}
 .footer p:last-child {
   margin-bottom: 0;
 }
-
 
