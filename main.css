@@ -18,7 +18,7 @@ header{
   z-index:2;
   width:100%;
   border-bottom: 0.05rem solid rgba(213,215,219,1);
-  background-color:rgba(245,245,245,0.88);
+  background-color:rgba(241,242,243,0.88);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 }
@@ -34,7 +34,7 @@ body{
   position:relative;
   min-height: 100vh;
   margin-top: 90px;
-  background-color: #f7f8f9;
+  background-color: #f1f2f3;
   font-size: 1rem;
 }
 
