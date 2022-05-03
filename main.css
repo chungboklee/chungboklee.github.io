@@ -57,7 +57,6 @@ body{
   border-radius:30px!important;
 }
 
-
 .header {
   line-height: 1.5rem;
   font-weight: 500;
@@ -196,13 +195,14 @@ p{
 
 .banner-project .project-category{
   font-size: 14px;
-  color: #ffffff;
+  font-weight:600;
+  color: #88929c;
   margin-bottom: 0;
 }
 
 .banner-project .project-name{
   font-size: 20px;
-  color: #ffffff;
+  color: #3e4549;
   margin-bottom: 1rem;
 }
 
@@ -215,7 +215,7 @@ p{
 
 .banner-project .project-time{
   font-size: 14px;
-  color: #aab1b8;
+  color: #88929c;
   font-style: italic;
 }
 
