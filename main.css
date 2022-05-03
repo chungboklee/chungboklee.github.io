@@ -17,7 +17,7 @@ header{
   top:0;
   z-index:2;
   width:100%;
-  border-bottom: 0.05rem solid rgba(213,215,219,1);
+  border-bottom: 0.05rem solid #d5d7db;
   background-color:rgba(241,242,243,0.88);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
@@ -306,7 +306,7 @@ li span{vertical-align: middle;}
   margin-top:90px;  
   padding: 2.5rem 0;
   text-align: center;
-  background-color: #f1f2f3;
+  background-color: #e6e8ea;
   border-top: .05rem solid #d5d7db;
 
 }
