@@ -190,7 +190,7 @@ p{
 .banner-title .title-position{
   font-size: 1rem;
   font-weight: bold;
-  color: #737e8a;
+  color: #3fb572;
   margin-bottom: 0;
 }
 
@@ -290,21 +290,19 @@ p{
 
   .banner-title{
   padding:  48px  0;
-  border:none!important;
+  border: none!important;
   background-color:rgba(230,232,234,0);
 }
 
   .banner-title .title-position{
   font-size: 0.75rem;
   font-weight: bold;
-  color: #737e8a;
   margin-bottom: 0;
 }
 
   .banner-title .title-name{
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   letter-spacing: -1px;
-  color: #111314;
   margin: 0;
 }
 
