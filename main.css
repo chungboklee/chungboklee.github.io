@@ -63,7 +63,7 @@ body{
 }
 
 .jumbotron{
-  border:0.5px solid #dedede;
+  border:1px solid #dedede;
   border-radius:30px!important;
 }
 
@@ -183,6 +183,8 @@ p{
 
 .banner-title{
   padding:  88px 48px 48px;
+  background-color:rgba(230,232,234,0.5);
+  backdrop-filter: blur(4px);
 }
 
 .banner-title .title-position{
@@ -202,7 +204,7 @@ p{
 .banner-project{
   padding:  36px 48px 16px;
   background-color:rgba(230,232,234,0.5);
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(4px);
 }
 
 .banner-project .project-category{
@@ -287,7 +289,9 @@ p{
 }
 
   .banner-title{
-  padding:  48px 24px 24px;
+  padding:  48px  0;
+  border:none!important;
+  background-color:rgba(230,232,234,0);
 }
 
   .banner-title .title-position{
@@ -298,7 +302,7 @@ p{
 }
 
   .banner-title .title-name{
-  font-size: 20px;
+  font-size: 1.75rem;
   letter-spacing: -1px;
   color: #111314;
   margin: 0;
