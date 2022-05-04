@@ -4,6 +4,7 @@ html{
   text-decoration: none!important;
   word-break:keep-all;
   overflow-y: scroll;
+  overflow-anchor: none;
 }
 
 @media (min-width:1200px){
@@ -38,23 +39,13 @@ body{
   font-size: 1rem;
 }
 
-.lottie-bg{
-  position:absolute;
-  z-index:-1;
-  height:100%;
-  top:-35%;
-  left:0;
-  right:0;
-  opacity: 0.15;
-}
-
 ::selection {
   background: #d5d7db; /* WebKit/Blink Browsers */
 }
+
 ::-moz-selection {
   background: #d5d7db; /* Gecko Browsers */
 }
-
 
 .jumbotron-profilecard{   
   background: url('assets/img/main/1.png');
@@ -184,7 +175,6 @@ p{
 .banner-title{
   padding:  88px 48px 48px;
   background-color:rgba(230,232,234,0.5);
-  backdrop-filter: blur(4px);
 }
 
 .banner-title .title-position{
@@ -204,7 +194,6 @@ p{
 .banner-project{
   padding:  36px 48px 16px;
   background-color:rgba(230,232,234,0.5);
-  backdrop-filter: blur(4px);
 }
 
 .banner-project .project-category{
@@ -271,49 +260,11 @@ p{
 .section-title{
   margin: 0;
 }
+
 .section-description{
   margin:0!important;
   font-size:0.875rem;
   color:#737e8a;
-}
-
-@media (max-width: 768px) {
-  .lottie-bg{
-    position:absolute;
-    z-index:-1;
-    height:100%;
-    top:-25%;
-    left:0;
-    right:0;
-    opacity: 0.33;
-}
-
-  .banner-title{
-  padding:  48px  0;
-  border: none!important;
-  background-color:rgba(230,232,234,0);
-}
-
-  .banner-title .title-position{
-  font-size: 0.75rem;
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
-  .banner-title .title-name{
-  font-size: 1.5rem;
-  letter-spacing: -1px;
-  margin: 0;
-}
-
-  .banner-project{
-  padding:  28px 24px 8px;
-}
-}
-
-.h-250 { height: 250px; }
-@media (min-width: 768px) {
-  .h-md-250 { height: 250px; }
 }
 
 .list-icontext li{
@@ -321,12 +272,15 @@ p{
   line-height: 1rem;
 }
 
-li span{vertical-align: middle;}
+li span{
+  vertical-align: middle;
+}
 
 
-/*
- * Footer
- */
+/*--------*/
+/* Footer */
+/*--------*/
+
 .footer {
   margin-top:90px;  
   padding: 2.5rem 0;
@@ -345,5 +299,30 @@ li span{vertical-align: middle;}
 
 .footer p:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+
+  .banner-title{
+  padding:  48px  0;
+  border: none!important;
+  background-color:rgba(230,232,234,0);
+  }
+
+  .banner-title .title-position{
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  }
+
+  .banner-title .title-name{
+  font-size: 1.5rem;
+  letter-spacing: -1px;
+  margin: 0;
+  }
+
+  .banner-project{
+  padding:  28px 24px 8px;
+  }
 }
 
