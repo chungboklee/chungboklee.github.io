@@ -222,6 +222,24 @@ p{
   font-style: italic;
 }
 
+.banner-study{
+  padding:  1rem 48px 1rem;
+  background-color:rgba(230,232,234,0.5);
+}
+
+.banner-study .study-category{
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight:600;
+  color: #88929c;
+  margin-bottom: 0.25rem;
+}
+.banner-study .study-name{
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  color: #3e4549;
+}
+
 .chart {
   margin-top:0.5rem;
   height: 0.75rem;
@@ -324,5 +342,9 @@ li span{
   .banner-project{
   padding:  28px 24px 8px;
   }
+
+  .banner-study{}
+    padding:  28px 24px 8px;
+    }
 }
 
