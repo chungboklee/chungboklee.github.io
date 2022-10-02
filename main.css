@@ -239,6 +239,12 @@ p{
   line-height: 1.25rem;
   color: #3e4549;
 }
+.banner-study .study-desc{
+  font-size: 14px;
+  color: #88929c;
+  font-style: italic;
+  margin:0;
+}
 
 .chart {
   margin-top:0.5rem;
