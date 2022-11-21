@@ -340,11 +340,19 @@ li span{
 .footer p:last-child {
   margin-bottom: 0;
 }
-
+@media (max-width: 468px) {
+  .jumbotron-profilecard{
+    background: url('assets/img/main/1m.png');
+    background-size: cover, 80% 80%;
+    background-position : right, center;
+   }
+}
 @media (max-width: 768px) {
 
   .banner-title{
-  padding:  64px 0.725rem;
+  padding: 4rem 0 4rem 0.725rem;
+  background-color:rgba(63,181,114,0.08);
+  border: 1px solid #3fb572;
   }
 
   .banner-title .title-position{
