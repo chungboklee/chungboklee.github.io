@@ -327,8 +327,8 @@ li span{
   text-align: left;
   background-color: #e6e8ea;
   border-top: .05rem solid #d5d7db;
-
 }
+
 .footer img{margin-bottom: 1rem;}
 
 .footer p{
@@ -340,13 +340,7 @@ li span{
 .footer p:last-child {
   margin-bottom: 0;
 }
-@media (max-width: 468px) {
-  .jumbotron-profilecard{
-    background: url('assets/img/main/1m.png');
-    background-size: cover, 80% 80%;
-    background-position : right, center;
-   }
-}
+
 @media (max-width: 768px) {
 
   .banner-title{
@@ -372,7 +366,18 @@ li span{
   }
 
   .banner-study{
-    padding:  0.5rem 1.5rem 0.725rem;
-    }
+  padding:  0.5rem 1.5rem 0.725rem;
+  }
+  
+  .footer {
+  margin-top:2rem;
+  }
 }
 
+@media (max-width: 468px) {
+  .jumbotron-profilecard{
+    background: url('assets/img/main/1m.png');
+    background-size: cover, 80% 80%;
+    background-position : right, center;
+   }
+}
