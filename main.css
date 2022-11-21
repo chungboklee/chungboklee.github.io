@@ -37,6 +37,7 @@ body{
   margin-top: 90px;
   background-color: #f1f2f3;
   font-size: 1rem;
+  line-height:1.25;
 }
 
 ::selection {
@@ -59,7 +60,6 @@ body{
 }
 
 .header {
-  line-height: 1.5rem;
   font-weight: 500;
   color: #3e4549!important;
 }
@@ -84,6 +84,7 @@ h6 {
   font-size:1rem;
   font-weight:600;
   color:#51575b;
+  line-height:1.5;
 }
 
 p{
@@ -98,8 +99,8 @@ p{
 .nav-scroller {
   position: relative;
   z-index: 2;
-  height: 3rem;
   overflow-y: hidden;
+  line-height: 2.2;
 }
 
 .nav-scroller .nav {
@@ -107,8 +108,6 @@ p{
   display: flex;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  padding-bottom: 1rem;
-  margin-top: -1px;
   overflow-x: auto;
   text-align: center;
   white-space: nowrap;
@@ -119,6 +118,22 @@ p{
   padding-top: .75rem;
   padding-bottom: .75rem;
   font-size: .875rem;
+}
+
+.nav-dm{
+  background: #3fb572;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  text-align:center;
+  padding: 0.25rem 0.725rem;
+  border-radius: 0.5rem;
+
+}
+
+.nav-dm:hover{
+  background: #3fb572;
+  color: white;
 }
 
 .icon-blog{
@@ -173,8 +188,9 @@ p{
 }
 
 .banner-title{
-  padding:  88px 48px 48px;
-  background-color:rgba(230,232,234,0.5);
+  padding:  88px 36px 48px;
+  background-color:rgba(63,181,114,0.08);
+  border: 1px solid #3fb572;
 }
 
 .banner-title .title-position{
@@ -192,7 +208,7 @@ p{
 }
 
 .banner-project{
-  padding:  36px 48px 16px;
+  padding:  36px 36px 16px;
   background-color:rgba(230,232,234,0.5);
 }
 
@@ -228,7 +244,7 @@ p{
 }
 
 .banner-study .study-category{
-  font-size: 0.75rem;
+  font-size: 14px;
   line-height: 1rem;
   font-weight:600;
   color: #88929c;
@@ -308,7 +324,7 @@ li span{
 .footer {
   margin-top:90px;  
   padding: 2.5rem 0;
-  text-align: center;
+  text-align: left;
   background-color: #e6e8ea;
   border-top: .05rem solid #d5d7db;
 
@@ -316,8 +332,8 @@ li span{
 .footer img{margin-bottom: 1rem;}
 
 .footer p{
-  font-size: 14px;
-  font-weight:500;
+  font-size: 12px;
+  font-weight:400;
   color: #88929c;
 }
 
@@ -328,9 +344,7 @@ li span{
 @media (max-width: 768px) {
 
   .banner-title{
-  padding:  48px  0;
-  border: none!important;
-  background-color:rgba(230,232,234,0);
+  padding:  64px 0.725rem;
   }
 
   .banner-title .title-position{
@@ -346,11 +360,11 @@ li span{
   }
 
   .banner-project{
-  padding:  1.75rem 1.5rem 0.5rem;
+  padding:  1.75rem 1.5rem 0.725rem;
   }
 
   .banner-study{
-    padding:  0.5rem 1.5rem 0.5rem;
+    padding:  0.5rem 1.5rem 0.725rem;
     }
 }
 
