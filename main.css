@@ -189,7 +189,7 @@ p{
 
 .banner-title{
   padding:  88px 36px 48px;
-  background-color:rgba(63,181,114,.08);
+  background-color:rgba(63,181,114,.11);
   border: 1px solid #3fb572;
   visibility: visible;
 }
@@ -346,7 +346,7 @@ li span{
 
   .banner-title{
   padding: 4rem 0 4rem 0.725rem;
-  background-color:rgba(63,181,114,0.1);
+  background-color:rgba(63,181,114,.11);
   border: 1px solid #3fb572;
   visibility: visible;
   }
