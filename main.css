@@ -55,8 +55,9 @@ body{
 }
 
 .jumbotron{
-  border:1px solid #dedede;
-  border-radius:30px!important;
+  border:1px solid #dee0e3;
+  border-radius:1rem!important;
+  margin-bottom:1rem!important;
 }
 
 .header {
@@ -70,20 +71,17 @@ body{
 h1, h2 {
   font-family: 'Inter', verdana, arial, sans-serif;
   font-weight:900;
-  color:#3e4549;
 }
 
 h3, h4, h5 {
   font-family: 'Inter', verdana, arial, sans-serif;
   font-weight:800;
-  color:#3e4549;
 }
 
 h6 { 
   font-family: 'Inter', verdana, arial, sans-serif;
   font-size:1rem;
-  font-weight:600;
-  color:#51575b;
+  font-weight:700;
   line-height:1.5;
 }
 
@@ -121,9 +119,10 @@ p{
 }
 
 .nav-dm{
-  background: #3fb572;
-  font-size: 14px;
-  font-weight: 500;
+  background: #3fb590;
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: 'Inter', verdana, arial, sans-serif;
   color: white;
   text-align:center;
   padding: 0.25rem 0.725rem;
@@ -132,7 +131,7 @@ p{
 }
 
 .nav-dm:hover{
-  background: #3fb572;
+  background: #3fb590;
   color: white;
 }
 
@@ -179,25 +178,17 @@ p{
   flex: 0 0 auto;
 }
 
-.container .jumbotron {
-  border-radius: 15px!important ;
-}
-
-.jumbotron {
-  margin-bottom:1rem!important;
-}
-
 .banner-title{
   padding:  88px 36px 48px;
-  background-color:rgba(63,181,114,.11);
-  border: 1px solid #3fb572;
+  background-color:rgba(63,181,144,.1);
+  border: 1px solid #3fb590;
   visibility: visible;
 }
 
 .banner-title .title-position{
   font-size: 1rem;
-  font-weight: bold;
-  color: #3fb572;
+  font-weight: 800;
+  color: #3fb590;
   margin-bottom: 0;
 }
 
@@ -209,7 +200,7 @@ p{
 }
 
 .banner-project{
-  padding:  36px 36px 16px;
+  padding: 2rem 2rem 1rem;
   background-color:rgba(230,232,234,0.5);
 }
 
@@ -228,7 +219,7 @@ p{
 .banner-project .project-position{
   font-size: 14px;
   font-weight: bold;
-  color: #3fb572;
+  color: #3fb590;
   margin-bottom: 0;
 }
 
@@ -239,7 +230,7 @@ p{
 }
 
 .banner-study{
-  padding:  1rem 48px 1rem;
+  padding: 1rem 2rem;
   background-color:rgba(230,232,234,0.5);
 }
 
@@ -282,7 +273,7 @@ p{
 
 .about-title{
   margin:0;
-  color:#3fb572;
+  color:#3e4549;
 }
 
 .about-role{
