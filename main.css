@@ -38,6 +38,7 @@ body{
   background-color: #f1f2f3;
   font-size: 1rem;
   line-height:1.25;
+  letter-spacing:-0.2px;
 }
 
 ::selection {
@@ -80,9 +81,7 @@ h3, h4, h5 {
 
 h6 { 
   font-family: 'Inter', verdana, arial, sans-serif;
-  font-size:1rem;
   font-weight:700;
-  line-height:1.5;
 }
 
 p{
@@ -219,6 +218,7 @@ p{
 .banner-project .project-position{
   font-size: 14px;
   font-weight: bold;
+    text-shadow:-1px 0px 0px #383e3b, 1px 0px 0px #383e3b, 0px -1px 0px #383e3b,0px 1px 0px #383e3b;
   color: #3fb590;
   margin-bottom: 0;
 }
@@ -228,6 +228,50 @@ p{
   color: #88929c;
   font-style: italic;
 }
+.banner-award{
+  border:0.5px solid #aab1b8;
+  padding: 2rem 2rem 1rem;
+  background: rgb(195,173,34);
+  background: -moz-linear-gradient(70deg, rgba(195,173,34,0.39959733893557425) 0%, rgba(255,255,255,0.727328431372549) 33%, rgba(253,187,45,0.4023984593837535) 100%);
+  background: -webkit-linear-gradient(70deg, rgba(195,173,34,0.39959733893557425) 0%, rgba(255,255,255,0.727328431372549) 33%, rgba(253,187,45,0.4023984593837535) 100%);
+  background: linear-gradient(70deg, rgba(195,173,34,0.39959733893557425) 0%, rgba(255,255,255,0.727328431372549) 33%, rgba(253,187,45,0.4023984593837535) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c3ad22",endColorstr="#fdbb2d",GradientType=1);
+  transition: transform 0.2s, box-shadow 0.4s;
+
+}
+.banner-award:hover{
+  transform: scale(1.08);
+  box-shadow:0px 8px 16px rgba(0,0,0,0.2);
+  border:0.25px solid #c3ad22;
+}
+
+.award-for{
+  font-size:0.875rem;
+  color:#88929c;
+  font-weight:600;
+}
+.award-prize {
+  font-size:1rem;
+  font-weight:600;
+  text-shadow:-1px 0px 1px #383e3b, 1px 0px 1px #383e3b, 0px -1px 1px #383e3b,0px 1px 1px #383e3b;
+  color:#3fb590;
+}
+.award-name {
+  font-size:1.25rem;
+  color:#111314;
+}
+.award-date {
+  font-size:0.75rem;
+  font-weight:400;
+  font-style:italic;
+  color:#737e8a;
+}
+.award-issue {
+  font-size:0.75rem;
+  font-weight:500;
+  color:#737e8a;
+}
+
 
 .banner-study{
   padding: 1rem 2rem;
@@ -349,7 +393,7 @@ li span{
 
   .banner-title .title-name{
   font-size: 1.5rem;
-  letter-spacing: -1px;
+  letter-spacing: -0.2px;
   margin: 0;
   }
 
