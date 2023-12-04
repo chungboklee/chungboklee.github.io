@@ -26,10 +26,10 @@ header{
 
 a{
   text-decoration: none!important;
-  color: #3fb572;
+  color: #328f72;
 }
 
-a:hover{color:#3fb572;}
+a:hover{color:#328f72;}
 
 body{
   position:relative;
@@ -97,7 +97,7 @@ p{
   position: relative;
   z-index: 2;
   overflow-y: hidden;
-  line-height: 2.2;
+  line-height: 2.4;
 }
 
 .nav-scroller .nav {
@@ -118,20 +118,24 @@ p{
 }
 
 .nav-dm{
-  background: #3fb590;
+  background: rgba(50,143,114,1);
   font-size: 0.875rem;
   font-weight: 600;
   font-family: 'Inter', verdana, arial, sans-serif;
-  color: white;
+  color: #ffffff;
   text-align:center;
-  padding: 0.25rem 0.725rem;
-  border-radius: 0.5rem;
+  padding: 0.25rem 1rem;
+  border:rgba(50,143,114,1) 1px solid;
+  border-radius: 0.75rem;
+  backdrop-filter: blur(0.5rem);
+  transition: all 0.4s ease-in-out;
 
 }
 
 .nav-dm:hover{
-  background: #3fb590;
-  color: white;
+  background: rgba(50,143,114,0.88);
+  color:#ffffff;
+  transition: all 0.4s ease-in-out;
 }
 
 .icon-blog{
@@ -178,16 +182,15 @@ p{
 }
 
 .banner-title{
-  padding:  88px 36px 48px;
-  background-color:rgba(63,181,144,.1);
-  border: 1px solid #3fb590;
+  padding:  88px 36px 64px;
+  background-color: #dee0e3;;
   visibility: visible;
 }
 
 .banner-title .title-position{
   font-size: 1rem;
   font-weight: 800;
-  color: #3fb590;
+  color: #737e8a;
   margin-bottom: 0;
 }
 
@@ -218,8 +221,7 @@ p{
 .banner-project .project-position{
   font-size: 14px;
   font-weight: bold;
-    text-shadow:-1px 0px 0px #383e3b, 1px 0px 0px #383e3b, 0px -1px 0px #383e3b,0px 1px 0px #383e3b;
-  color: #3fb590;
+  color: #328f72;
   margin-bottom: 0;
 }
 
@@ -253,8 +255,7 @@ p{
 .award-prize {
   font-size:1rem;
   font-weight:600;
-  text-shadow:-1px 0px 1px #383e3b, 1px 0px 1px #383e3b, 0px -1px 1px #383e3b,0px 1px 1px #383e3b;
-  color:#3fb590;
+  color:#807216;
 }
 .award-name {
   font-size:1.25rem;
@@ -381,7 +382,7 @@ li span{
   .banner-title{
   padding: 4rem 0 4rem 0.725rem;
   background-color:rgba(63,181,114,.11);
-  border: 1px solid #3fb572;
+  border: 1px solid #328f72;
   visibility: visible;
   }
 
